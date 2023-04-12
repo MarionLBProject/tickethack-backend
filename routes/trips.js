@@ -25,4 +25,12 @@ router.get('/', (req, res) => {
 
 //route get trip sur le search
 
+router.delete('/:id', function(req, res, next) {
+  console.log(req.params.id);
+
+  // mise en place de la suppresion
+
+
+  res.json({});
+});
 module.exports = router;
