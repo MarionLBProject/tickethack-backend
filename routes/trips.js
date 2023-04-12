@@ -8,8 +8,8 @@ var Trip = require('../models/trips')
 router.get('/', (req, res) => {
   // if (!req.body.departure || !req.body.arrival || !req.body.date) {
     console.log(req.body.departure)
-    const date = date.format('L');
-    console.log(req.body.date)
+    // const date = date.format('L');
+    // console.log(req.body.date)
 
   //   res.json({ result: false, error: 'Please fill the fields!'})
   //   return;
