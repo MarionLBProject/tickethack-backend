@@ -6,6 +6,8 @@ const moment = require('moment');
 
 var Trip = require('../models/trips') 
 
+router.get 
+
 router.post('/', (req,res) => {
   const departure = req.body.departure
   const arrival = req.body.arrival
@@ -27,4 +29,5 @@ router.post('/', (req,res) => {
   }
 })
 })
+
 module.exports = router;
